@@ -1,0 +1,17 @@
+✅ AI Method Used in Your Rock-Paper-Scissors Game
+Your game uses a simple Artificial Intelligence method called:
+
+
+The computer uses the random.choice() function to select Rock, Paper, or Scissors.
+This means the computer does not think or learn, it just picks a move randomly.
+Every choice has an equal probability (1/3 chance).
+This simulates a basic AI opponent.
+🧠 Why it is called AI?
+The computer behaves like an opponent (agent).
+It makes decisions automatically without human input.
+Even though it's simple, it is considered a basic form of AI.
+⚙️ How it works in your code
+Python
+computer_choice = random.choice(choices)
+choices = ["Rock", "Paper", "Scissors"]
+The computer randomly selects one option each round.
